@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.container {
+  position: relative;
+  display: flex;
+}
+.line-left {
+  width: 35px;
+  height: 150px;
+  background-color: #860000;
+}
+.line-right {
+  width: 35px;
+  height: 150px;
+  background-color: #860000;
+  position: absolute;
+  right: -249%;
+  z-index: -1;
+}
+.line-middle {
+  width: 35px;
+  height: 150px;
+  background-color: #ed0000;
+  position: absolute;
+  right: -305%;
+  transform: skewX(30deg);
+  left: 44px;
+}
